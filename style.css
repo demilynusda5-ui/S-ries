@@ -1,0 +1,236 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= VARIÁVEIS ================= */
+:root {
+    --vermelho: #e50914;
+    --vermelho-escuro: #b20710;
+    --preto: #141414;
+    --cinza-escuro: #181818;
+    --cinza-claro: #b3b3b3;
+    --branco: #ffffff;
+}
+
+/* ================= BASE ================= */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--preto);
+    color: var(--branco);
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    width: 92%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* ================= CABEÇALHO ================= */
+header {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.2));
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--vermelho);
+    letter-spacing: 1px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: var(--branco);
+}
+
+/* ================= SEÇÕES ================= */
+.secao {
+    padding: 70px 0;
+}
+
+.secao-cinza {
+    background-color: var(--cinza-escuro);
+}
+
+.secao h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* ================= DESTAQUE ================= */
+.destaque-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px 8%;
+    background: radial-gradient(circle at top, #2a0000, #000);
+}
+
+.destaque-texto h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.destaque-texto p {
+    font-size: 18px;
+    color: var(--cinza-claro);
+    margin-bottom: 25px;
+}
+
+.destaque-imagem img {
+    max-width: 420px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+}
+
+/* ================= FILTROS ================= */
+.filtros {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.filtro {
+    padding: 12px 22px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, var(--vermelho), var(--vermelho-escuro));
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.filtro:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(229, 9, 20, 0.6);
+}
+
+.filtro:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+/* ================= GRID ================= */
+.grid-series {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 35px;
+}
+
+/* ================= CARD ================= */
+.card-serie {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.card-serie:hover {
+    transform: scale(1.08);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.8);
+    z-index: 2;
+}
+
+.card-serie img {
+    height: 340px;
+    object-fit: cover;
+}
+
+.card-serie h3 {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.genero {
+    color: var(--vermelho);
+    font-size: 14px;
+    margin: 0 15px 10px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 14px;
+    color: var(--cinza-claro);
+    padding: 0 15px 20px;
+    text-align: justify;
+}
+
+/* ================= SOBRE ================= */
+#sobre p {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    color: var(--cinza-claro);
+}
+
+/* ================= CONTATO ================= */
+.lista-contato {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lista-contato li {
+    margin: 12px 0;
+}
+
+/* ================= RODAPÉ ================= */
+footer {
+    background-color: #000;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
+
+/* ================= RESPONSIVO ================= */
+@media (max-width: 900px) {
+    .destaque-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .destaque-imagem img {
+        max-width: 300px;
+    }
+}
+
