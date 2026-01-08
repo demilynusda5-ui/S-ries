@@ -1,0 +1,105 @@
+# 🎬 Séries Maximus
+
+**Séries Maximus** é um catálogo de séries desenvolvido com **HTML5 e CSS3**, criado para fins de estudo e prática de desenvolvimento web.  
+O projeto reúne séries famosas de diversos gêneros em um layout moderno, organizado e fácil de navegar, ideal para quem ama maratonar 📺🍿
+
+---
+
+## 🌟 Visão Geral
+
+O site apresenta uma experiência visual agradável, com cards informativos e seções bem definidas.  
+Foi pensado para praticar estruturação de páginas, estilização com CSS e organização de conteúdo.
+
+---
+
+## 🧩 Funcionalidades
+
+✔️ Cabeçalho com menu de navegação  
+✔️ Seção inicial com destaque das séries mais assistidas  
+✔️ Filtros visuais por gênero (Ação, Comédia, Drama)  
+✔️ Catálogo completo com cards detalhados das séries  
+✔️ Seção “Sobre o catálogo”  
+✔️ Área de contato com redes sociais  
+✔️ Rodapé personalizado  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** – Estrutura semântica do site  
+- **CSS3** – Estilização e layout  
+- **Design Responsivo** – Melhor visualização em diferentes telas  
+
+---
+
+## 📂 Estrutura do Projeto
+
+📁 series-maximus
+├── 📁 imagens
+│ └── (imagens das séries)
+├── style.css
+├── index.html
+└── README.md
+
+yaml
+Copiar código
+
+---
+
+## 🎥 Séries no Catálogo
+
+O catálogo conta com diversas séries populares, incluindo:
+
+- Bridgerton  
+- Ginny e Georgia  
+- Grey's Anatomy  
+- La Casa de Papel  
+- Peaky Blinders  
+- Wandinha  
+- Elite  
+- Lucifer  
+- The Flash  
+- Pretty Little Liars  
+- Supernatural  
+- The Witcher  
+- H2O: Meninas Sereias  
+- Outer Banks  
+- Yellowstone  
+- Vikings  
+- Emily in Paris  
+- Meu Demônio Favorito  
+*(entre outras)*
+
+Cada série possui imagem, gênero e uma descrição detalhada.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido com o objetivo de:
+
+- Praticar **HTML e CSS**
+- Aprender organização de layout
+- Criar um catálogo visual atrativo
+- Desenvolver um projeto para portfólio front-end
+
+---
+
+## 📬 Contato
+
+Quer enviar sugestões de séries ou entrar em contato?
+
+- 📧 **Email:** series.maximus@gmail.com  
+- 📸 **Instagram:** @seriesmaximus.ofc  
+- 📘 **Facebook:** Series Maximus  
+
+---
+
+## 👩‍💻 Autora
+
+**Demily Lindolm Nusda**  
+Projeto educacional – 2026  
+
+---
+
+⭐ Se você gostou do projeto, deixe uma estrela no repositório!
